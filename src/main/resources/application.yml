@@ -1,9 +1,13 @@
 spring:
+<<<<<<< HEAD
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
   jpa:
     showsql: false
+=======
+  jpa:
+>>>>>>> 641e1e3cfa2afb78e5f2e7e396749840bc9ead62
     hibernate:
       ddl-auto: update
   datasource:

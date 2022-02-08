@@ -17,7 +17,10 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
 	implementation("org.springframework.boot:spring-boot-starter-validation")
+=======
+>>>>>>> 641e1e3cfa2afb78e5f2e7e396749840bc9ead62
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
@@ -26,10 +29,13 @@ dependencies {
 
 	implementation("org.flywaydb:flyway-core:8.0.0")
 
+<<<<<<< HEAD
 	implementation("io.springfox:springfox-boot-starter:3.0.0")
 	implementation("io.springfox:springfox-swagger2:3.0.0")
 	implementation("io.springfox:springfox-swagger-ui:3.0.0")
 
+=======
+>>>>>>> 641e1e3cfa2afb78e5f2e7e396749840bc9ead62
 	runtimeOnly("mysql:mysql-connector-java")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
